@@ -20,10 +20,10 @@ export default function App() {
       {!isYes ? (
         <div className="container">
           <div className="text-container">
-            <h1>Tara mag inom? 🍺</h1>
+            <h1>Let's go to church this Sunday? 🙏🏻</h1>
           </div>
           <div className="btn-container">
-            <button onClick={handleClickYes}>Tara! 🍻</button>
+            <button onClick={handleClickYes}>Let's Go!</button>
             <button
               className="btn-no"
               onClick={handleClickNo}
@@ -33,13 +33,13 @@ export default function App() {
                 left: left,
               }}
             >
-              Di ako pwede ❌
+              Sorry, I can't.
             </button>
           </div>
         </div>
       ) : (
         <div className="container">
-          <h1>Pota tara G! 🍻 Sagot mo na isang bucket 🍾</h1>
+          <h1>See you next Sunday! God has something good for you.</h1>
         </div>
       )}
     </>
